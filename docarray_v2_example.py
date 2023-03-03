@@ -1,3 +1,6 @@
+# make sure to install docarray v2 first
+# pip install "git+https://github.com/docarray/docarray@feat-rewrite-v2#egg=docarray[common,torch,image]"
+
 from jina import Executor, requests
 from transformers import Blip2Processor, Blip2ForConditionalGeneration
 import torch
